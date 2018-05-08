@@ -1,0 +1,10 @@
+ic0b32460c187729-http://uhi.herokuapp.com/generic
+567f2b906c8a9fcd-http://uhi.herokuapp.com/door 
+83f033b1a10a0b4d-http://uhi.herokuapp.com/fridge
+386c97303eb4e885-http://uhi.herokuapp.com/chair
+1737c67d10ed4d0d-http://uhi.herokuapp.com/bike
+4b2565397ed81897-http://uhi.herokuapp.com/shoe
+7a845f2d9a684494-http://uhi.herokuapp.com/bag 
+61421e9e5b90b6ef-http://uhi.herokuapp.com/bed
+ed0053ca88a55b37-http://uhi.herokuapp.com/car
+9c817d08e3791ffa-http://uhi.herokuapp.com/dog

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Detection Beacon</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Previous</string>
+    <string name="linkfound"> Link found - activate wifi before</string>
+    <string name="nothing"> Nothing </string>
+    <string name="ble_not_supported">Device isn t compatible with the app </string>
+    <string name="title_activity_webv">webview</string>
+    <string name="title_activity_main">Selection</string>
+    <string name="title_activity_free">Detection</string>
+    <string name="title_activity_plan">Plan</string>
+    <string name="noInternet">No internet. Open Wifi </string>
+    <string name="description"> Description </string>
+</resources>

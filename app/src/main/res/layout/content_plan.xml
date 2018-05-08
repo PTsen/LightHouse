@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="uhi.sen.estimote2.Plan"
+    tools:showIn="@layout/activity_plan"
+    android:id="@+id/relative">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:id="@+id/btPrev" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btPrev"
+        android:fillViewport="false">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="7"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/buttonField">
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 1"-->
+                <!--android:id="@+id/plan1"-->
+                <!--android:layout_row="0"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+    <!-- -->
+    <!-- -->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 2"-->
+                <!--android:id="@+id/plan2"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_row="1"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="plan2"-->
+                <!--android:id="@+id/btPlan2"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="1"-->
+                <!--android:layout_column="2" />-->
+    <!-- -->
+    <!-- -->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 3"-->
+                <!--android:id="@+id/plan3"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_row="2"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="plan3"-->
+                <!--android:id="@+id/btPlan3"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="2"-->
+                <!--android:layout_column="2" />-->
+    <!-- -->
+            <!--Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New Button"-->
+                <!--android:id="@+id/button4"-->
+                <!--android:layout_row="2"-->
+                <!--android:layout_column="3" />-->
+    <!-- -->
+    <!-- -->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 4"-->
+                <!--android:id="@+id/plan4"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_row="3"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="plan4"-->
+                <!--android:id="@+id/btPlan4"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="3"-->
+                <!--android:layout_column="2" />-->
+    <!-- -->
+    <!-- -->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 5"-->
+                <!--android:id="@+id/plan5"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_row="4"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="plan5"-->
+                <!--android:id="@+id/btPlan5"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="4"-->
+                <!--android:layout_column="2" />-->
+    <!-- -->
+    <!-- -->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="plan 6"-->
+                <!--android:id="@+id/plan6"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_row="5"-->
+                <!--android:layout_column="0" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="plan6"-->
+                <!--android:id="@+id/btPlan6"-->
+                <!--android:layout_below="@+id/scrollView"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="5"-->
+                <!--android:layout_column="2" />-->
+    <!-- -->
+            <!--<Space-->
+                <!--android:layout_width="160dp"-->
+                <!--android:layout_height="20px"-->
+                <!--android:layout_row="0"-->
+                <!--android:layout_column="1" />-->
+    <!-- -->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Plan1"-->
+                <!--android:id="@+id/btPlan1"-->
+                <!--android:layout_alignTop="@+id/scrollView"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignBottom="@+id/scrollView"-->
+                <!--android:layout_row="0"-->
+                <!--android:layout_column="2" />-->
+
+
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plan 1"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/btPrev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plan 1"
+        android:id="@+id/p1"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_alignEnd="@+id/scrollView" />
+
+</RelativeLayout>
